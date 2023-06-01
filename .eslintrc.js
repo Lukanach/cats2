@@ -14,5 +14,8 @@ module.exports = {
     semi: ['error', 'never'],
     'no-console': 0,
     'no-tabs': 0,
+    'prefer-destructuring': 0,
+    'consistent-return': 0,
+    'no-alert': 0,
   },
 }
