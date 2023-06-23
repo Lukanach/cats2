@@ -14,15 +14,23 @@
 </head>
 
 <body>
-  <div class="header">header</div>
+
   <div class="container py-5">
     <h1 class="text-center mb-2">Cats</h1>
     <div class="d-flex justify-content-center">
-      <button data-action="" type="button" class="btn btn-success mb-2">
+      <button data-openModal="createCat" type="button" class="btn btn-success mb-2">
         Add
       </button>
     </div>
     <div data-wr class="d-flex flex-wrap"></div>
+  </div>
+  <div data-modalWr class="modal hidden">
+    <div data-modalContent class="modal__content">
+    </div>
+  </div>
+  <div data-modalWrDet class="modal hidden">
+    <div data-wrDet data-modalContentDet class="modal__content"></div>
+  </div>
   </div>
 </body>
 
